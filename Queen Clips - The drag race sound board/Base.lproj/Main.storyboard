@@ -6,11 +6,6 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="ABOVE  - PERSONAL USE ONLY.ttf">
-            <string>AboveDEMO-Regular</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -32,15 +27,17 @@
                                             <constraint firstAttribute="height" constant="100" id="NFy-9c-yXy"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="crj-hf-uqH">
-                                        <color key="backgroundColor" red="0.0" green="0.50960348356332352" blue="0.67562121391296381" alpha="0.30219693791946306" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <button opaque="NO" contentMode="center" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="crj-hf-uqH">
+                                        <rect key="frame" x="72" y="160" width="230" height="70"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="gb1-wJ-80M"/>
                                             <constraint firstAttribute="width" constant="230" id="qzX-fJ-zAw"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="AboveDEMO-Regular" family="Above DEMO" pointSize="19"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <size key="titleShadowOffset" width="-1" height="2"/>
-                                        <state key="normal" title="Your tone seems very pointed">
+                                        <state key="normal" title="YOUR TONE SEEMS VERY POINTED" backgroundImage="BOX3">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" red="0.53045493359999996" green="0.44012182950000001" blue="0.70935279129999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -78,10 +75,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
     </scenes>
     <resources>
         <image name="BG" width="750" height="1334"/>
+        <image name="BOX3" width="230" height="70"/>
         <image name="LOGO_2" width="257" height="113"/>
     </resources>
 </document>
