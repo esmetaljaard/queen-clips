@@ -11,15 +11,13 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
-    let soundFilenames = ["01", "02", "03", "04", "05", "06", "07", "08"]
+    let soundFilenames = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13"]
     var audioPlayers = [AVAudioPlayer]()
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-       
         
         
         for sound in soundFilenames {
