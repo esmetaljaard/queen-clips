@@ -13,6 +13,7 @@
 		0A7343521DB3C0FE0039300F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7343511DB3C0FE0039300F /* Assets.xcassets */; };
 		0A7343551DB3C0FE0039300F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7343531DB3C0FE0039300F /* LaunchScreen.storyboard */; };
 		0A73435E1DB3C12A0039300F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A73435D1DB3C12A0039300F /* AVFoundation.framework */; };
+		0AF6CF201DB3CDAA00B0739B /* ABOVE  - PERSONAL USE ONLY.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AF6CF1F1DB3CD7F00B0739B /* ABOVE  - PERSONAL USE ONLY.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0A7343541DB3C0FE0039300F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A7343561DB3C0FE0039300F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A73435D1DB3C12A0039300F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0AF6CF1F1DB3CD7F00B0739B /* ABOVE  - PERSONAL USE ONLY.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ABOVE  - PERSONAL USE ONLY.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				0A73434C1DB3C0FE0039300F /* ViewController.swift */,
 				0A73434E1DB3C0FE0039300F /* Main.storyboard */,
 				0A7343511DB3C0FE0039300F /* Assets.xcassets */,
+				0AF6CF1F1DB3CD7F00B0739B /* ABOVE  - PERSONAL USE ONLY.ttf */,
 				0A7343531DB3C0FE0039300F /* LaunchScreen.storyboard */,
 				0A7343561DB3C0FE0039300F /* Info.plist */,
 			);
@@ -136,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF6CF201DB3CDAA00B0739B /* ABOVE  - PERSONAL USE ONLY.ttf in Resources */,
 				0A7343551DB3C0FE0039300F /* LaunchScreen.storyboard in Resources */,
 				0A7343521DB3C0FE0039300F /* Assets.xcassets in Resources */,
 				0A7343501DB3C0FE0039300F /* Main.storyboard in Resources */,

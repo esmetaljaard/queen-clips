@@ -6,6 +6,11 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="ABOVE  - PERSONAL USE ONLY.ttf">
+            <string>AboveDEMO-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -22,20 +27,36 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VJL-1r-KEx">
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="crv-2s-wnc"/>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crj-hf-uqH">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO_2" translatesAutoresizingMaskIntoConstraints="NO" id="3w8-E9-bQi">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="NFy-9c-yXy"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="crj-hf-uqH">
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="gb1-wJ-80M"/>
                                             <constraint firstAttribute="width" constant="200" id="qzX-fJ-zAw"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
+                                        <fontDescription key="fontDescription" name="AboveDEMO-Regular" family="Above DEMO" pointSize="19"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="0.80434668624161076" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="focused">
+                                            <color key="titleColor" white="1" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
+                                        </state>
                                     </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="crv-2s-wnc" secondAttribute="trailing" id="3lX-ah-VsZ"/>
                                     <constraint firstItem="crv-2s-wnc" firstAttribute="top" secondItem="VJL-1r-KEx" secondAttribute="top" id="DwX-mQ-Df8"/>
                                     <constraint firstAttribute="bottom" secondItem="crv-2s-wnc" secondAttribute="bottom" id="NkI-Ws-dDI"/>
+                                    <constraint firstItem="3w8-E9-bQi" firstAttribute="centerX" secondItem="VJL-1r-KEx" secondAttribute="centerX" id="Ump-9L-EmU"/>
                                     <constraint firstItem="crj-hf-uqH" firstAttribute="top" secondItem="VJL-1r-KEx" secondAttribute="top" constant="200" id="cks-Mn-zF1"/>
                                     <constraint firstItem="crv-2s-wnc" firstAttribute="leading" secondItem="VJL-1r-KEx" secondAttribute="leading" id="lgf-DB-70u"/>
+                                    <constraint firstItem="3w8-E9-bQi" firstAttribute="top" secondItem="VJL-1r-KEx" secondAttribute="top" constant="16" id="vjy-S4-rpK"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -58,5 +79,6 @@
     </scenes>
     <resources>
         <image name="BG" width="750" height="1334"/>
+        <image name="LOGO_2" width="257" height="113"/>
     </resources>
 </document>
