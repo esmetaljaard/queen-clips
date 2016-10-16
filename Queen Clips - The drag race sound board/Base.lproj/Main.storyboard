@@ -27,8 +27,7 @@
                                             <constraint firstAttribute="height" constant="100" id="NFy-9c-yXy"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="center" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="crj-hf-uqH">
-                                        <rect key="frame" x="72" y="160" width="230" height="70"/>
+                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="crj-hf-uqH">
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="gb1-wJ-80M"/>
@@ -47,15 +46,72 @@
                                         <state key="focused">
                                             <color key="titleColor" white="1" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XQw-eI-BQJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="d7R-fr-ZKW">
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="230" id="5ae-xD-7F5"/>
+                                            <constraint firstAttribute="height" constant="70" id="p7B-s3-Gjx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <size key="titleShadowOffset" width="-1" height="2"/>
+                                        <state key="normal" title="WATER OFF A DUCKS BACK" backgroundImage="BOX3">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" red="0.53045493359999996" green="0.44012182950000001" blue="0.70935279129999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="0.80434668620000005" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="focused">
+                                            <color key="titleColor" white="1" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nrX-58-Urc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Pr6-CQ-OIK">
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="aLu-c2-zrQ"/>
+                                            <constraint firstAttribute="width" constant="230" id="wW5-mv-VPz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <size key="titleShadowOffset" width="-1" height="2"/>
+                                        <state key="normal" title="TOUNGUE POP" backgroundImage="BOX3">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" red="0.53045493359999996" green="0.44012182950000001" blue="0.70935279129999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="0.80434668620000005" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="focused">
+                                            <color key="titleColor" white="1" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s6f-W9-JvN"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="crv-2s-wnc" secondAttribute="trailing" id="3lX-ah-VsZ"/>
+                                    <constraint firstItem="d7R-fr-ZKW" firstAttribute="height" secondItem="crj-hf-uqH" secondAttribute="height" id="3p0-6G-xLg"/>
+                                    <constraint firstItem="Pr6-CQ-OIK" firstAttribute="width" secondItem="crj-hf-uqH" secondAttribute="width" id="6fL-pe-93l"/>
+                                    <constraint firstItem="Pr6-CQ-OIK" firstAttribute="centerX" secondItem="crv-2s-wnc" secondAttribute="centerX" id="Dey-2I-5tT"/>
                                     <constraint firstItem="crv-2s-wnc" firstAttribute="top" secondItem="VJL-1r-KEx" secondAttribute="top" id="DwX-mQ-Df8"/>
+                                    <constraint firstItem="d7R-fr-ZKW" firstAttribute="top" secondItem="crj-hf-uqH" secondAttribute="bottom" constant="30" id="IJC-GA-7T6"/>
+                                    <constraint firstItem="crj-hf-uqH" firstAttribute="top" secondItem="3w8-E9-bQi" secondAttribute="bottom" constant="40" id="Lvc-7D-FS2"/>
                                     <constraint firstAttribute="bottom" secondItem="crv-2s-wnc" secondAttribute="bottom" id="NkI-Ws-dDI"/>
                                     <constraint firstItem="3w8-E9-bQi" firstAttribute="centerX" secondItem="VJL-1r-KEx" secondAttribute="centerX" id="Ump-9L-EmU"/>
-                                    <constraint firstItem="crj-hf-uqH" firstAttribute="top" secondItem="VJL-1r-KEx" secondAttribute="top" constant="150" id="cks-Mn-zF1"/>
+                                    <constraint firstItem="Pr6-CQ-OIK" firstAttribute="top" secondItem="d7R-fr-ZKW" secondAttribute="bottom" constant="30" id="YUo-3x-Xfq"/>
+                                    <constraint firstItem="d7R-fr-ZKW" firstAttribute="width" secondItem="crj-hf-uqH" secondAttribute="width" id="a6v-eR-aj1"/>
+                                    <constraint firstItem="d7R-fr-ZKW" firstAttribute="centerX" secondItem="crv-2s-wnc" secondAttribute="centerX" id="e1I-ua-PaM"/>
                                     <constraint firstItem="crv-2s-wnc" firstAttribute="leading" secondItem="VJL-1r-KEx" secondAttribute="leading" id="lgf-DB-70u"/>
+                                    <constraint firstItem="Pr6-CQ-OIK" firstAttribute="height" secondItem="crj-hf-uqH" secondAttribute="height" id="tCT-vb-V96"/>
                                     <constraint firstItem="3w8-E9-bQi" firstAttribute="top" secondItem="VJL-1r-KEx" secondAttribute="top" constant="16" id="vjy-S4-rpK"/>
                                 </constraints>
                             </scrollView>
