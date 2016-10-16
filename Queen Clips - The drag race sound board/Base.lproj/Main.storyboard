@@ -33,13 +33,16 @@
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="crj-hf-uqH">
+                                        <color key="backgroundColor" red="0.0" green="0.50960348356332352" blue="0.67562121391296381" alpha="0.30219693791946306" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="gb1-wJ-80M"/>
-                                            <constraint firstAttribute="width" constant="200" id="qzX-fJ-zAw"/>
+                                            <constraint firstAttribute="width" constant="230" id="qzX-fJ-zAw"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AboveDEMO-Regular" family="Above DEMO" pointSize="19"/>
-                                        <state key="normal" title="Button">
+                                        <size key="titleShadowOffset" width="-1" height="2"/>
+                                        <state key="normal" title="Your tone seems very pointed">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" red="0.53045493359999996" green="0.44012182950000001" blue="0.70935279129999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="0.80434668624161076" colorSpace="calibratedWhite"/>
@@ -54,7 +57,7 @@
                                     <constraint firstItem="crv-2s-wnc" firstAttribute="top" secondItem="VJL-1r-KEx" secondAttribute="top" id="DwX-mQ-Df8"/>
                                     <constraint firstAttribute="bottom" secondItem="crv-2s-wnc" secondAttribute="bottom" id="NkI-Ws-dDI"/>
                                     <constraint firstItem="3w8-E9-bQi" firstAttribute="centerX" secondItem="VJL-1r-KEx" secondAttribute="centerX" id="Ump-9L-EmU"/>
-                                    <constraint firstItem="crj-hf-uqH" firstAttribute="top" secondItem="VJL-1r-KEx" secondAttribute="top" constant="200" id="cks-Mn-zF1"/>
+                                    <constraint firstItem="crj-hf-uqH" firstAttribute="top" secondItem="VJL-1r-KEx" secondAttribute="top" constant="150" id="cks-Mn-zF1"/>
                                     <constraint firstItem="crv-2s-wnc" firstAttribute="leading" secondItem="VJL-1r-KEx" secondAttribute="leading" id="lgf-DB-70u"/>
                                     <constraint firstItem="3w8-E9-bQi" firstAttribute="top" secondItem="VJL-1r-KEx" secondAttribute="top" constant="16" id="vjy-S4-rpK"/>
                                 </constraints>
