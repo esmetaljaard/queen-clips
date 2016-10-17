@@ -399,7 +399,7 @@
 				INFOPLIST_FILE = "Queen Clips - The drag race sound board/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.EsmeTaljaard.Queen-Clips---The-drag-race-sound-board";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EsmeTaljaard.Queen-Clips---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -413,7 +413,7 @@
 				INFOPLIST_FILE = "Queen Clips - The drag race sound board/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.EsmeTaljaard.Queen-Clips---The-drag-race-sound-board";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EsmeTaljaard.Queen-Clips---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

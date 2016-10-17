@@ -26,7 +26,7 @@
                                             <constraint firstAttribute="height" constant="2400" id="Sz4-OV-Dm1"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO_2" translatesAutoresizingMaskIntoConstraints="NO" id="3w8-E9-bQi">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-3x" translatesAutoresizingMaskIntoConstraints="NO" id="3w8-E9-bQi">
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="NFy-9c-yXy"/>
                                         </constraints>
@@ -624,6 +624,6 @@
     <resources>
         <image name="BG" width="750" height="1334"/>
         <image name="BOX3" width="230" height="70"/>
-        <image name="LOGO_2" width="257" height="113"/>
+        <image name="logo-3x" width="392" height="174"/>
     </resources>
 </document>
